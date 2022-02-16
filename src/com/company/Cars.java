@@ -9,13 +9,16 @@ public class Cars {
     }
 
     public String getModel() {
-        return model;}
+        return model;
+    }
 
     public void setCost(double carCost) {
+
         cost = carCost;
     }
 
     public double getCost() {
-        return cost;}
+        return cost;
+    }
 
 }
