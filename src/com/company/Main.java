@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -11,23 +13,31 @@ public class Main {
 
 
 	 */
-Cars car1 = new Cars;
-Cars car2 = new Cars;
-Cars car3 = new Cars;
-Cars car4 = new Cars;
-Cars car5 = new Cars;
+        Scanner userInput = new Scanner(System.in);
 
-car1.setModel("2021 EcoSport S");
-car2.setModel("2022 Mustang MACH-E");
-car3.setModel("2022 Maverick");
-car4.setModel("2021 F-150");
-car5.setModel("2022 E-Transit");
+        final int INDEX = 5;
 
-car1.setCost(20395.00);
-car2.setCost(43895.00);
-car3.setCost(19995.00)
-car4.setCost(29290.00);
-car5.setCost(43295.00);
+
+        Cars car1 = new Cars;
+        Cars car2 = new Cars;
+        Cars car3 = new Cars;
+        Cars car4 = new Cars;
+        Cars car5 = new Cars;
+
+        car1.setModel("2021 EcoSport S");
+        car2.setModel("2022 Mustang MACH-E");
+        car3.setModel("2022 Maverick");
+        car4.setModel("2021 F-150");
+        car5.setModel("2022 E-Transit");
+
+        car1.setCost(20395.00);
+        car2.setCost(43895.00);
+        car3.setCost(19995.00)
+        car4.setCost(29290.00);
+        car5.setCost(43295.00);
+
+        System.out.println("Hello! Nice to meet you! What is your name?");
+
 
     } //End main
 
